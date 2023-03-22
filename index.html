@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tables</title>
+  <style>
+  *{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+  }
+  p,tr,th,td{
+    font-weight: 350;
+  }
+  h1,h2,h3{
+    font-weight: 600;
+  }
+  body{
+    background-color: antiquewhite;
+  }
+  .container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(243, 243, 243);
+    height: 100vh;
+  }
+  .table{
+    border-collapse: collapse;
+    width:90%;
+    margin: 0 auto;
+  }
+
+  .Title{
+    padding: 10px 0;
+    text-align: center;
+    font-weight: 900px;
+  }
+  .bor {
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px 30px ;
+  }
+  .tb-one{
+    border: 1px solid black;
+  text-align: center;
+  
+  }
+  .tb-two{
+    border: 1px solid black;
+  text-align: center;
+
+  }
+  .tb-free{
+    border: 1px solid black;
+  text-align: center;
+
+  }
+  .tb-four{
+    border: 1px solid black;
+  text-align: center;
+  }
+  .tb-five{
+    border: 1px solid black;
+  text-align: center;
+
+  }
+  .tb-six{
+    border-bottom: 1px solid black;
+    text-align: center;
+
+  }
+  .tb-six-last{
+    border-bottom: 1px solid black;
+    border-right: 1px solid #000;
+    text-align: center;
+  }
+  #back{
+    background-color: rgba(167, 167, 167, 0.562);
+  }
+  .Title-error{
+    display: none;
+    color:#000;font-size: 40px;text-align: center;
+  }
+  @media screen and (max-width: 910px) {
+    
+    .container{
+      display: none;
+    }
+ .Title-error{
+display: block;
+ }
+  }
+  </style>
+</head>
+<body>
+  <div class="Title-error"> <h1 style=" color:#000;font-size: 40px;text-align: center;">ERROR FILE TABLE</h1><p>(open web-site min-width screen 910px)</p>
+  </div>
+ 
+  <div class="container">
+  <div class="Title">
+    <h1>Table</h1>
+  </div>
+  <div class="Table-one">
+  <table class="table">
+    <caption>One Table</caption>
+    <tr>
+      <th id="back"  class="bor">Prise</th>
+      <th id="back"  class="bor">Jan 2022</th>
+      <th id="back"  class="bor">Oct 2020</th>
+    </tr>
+    <tr>
+      <td class="bor">Premium</td>
+      <td class="bor">19</td>
+      <td class="bor">30</td>
+    </tr>
+    <tr>
+      <td class="bor">Standart</td>
+      <td class="bor">22</td>
+      <td class="bor">14</td>
+    </tr>
+    <tr>
+      <td class="bor">Basic</td>
+      <td class="bor">22</td>
+      <td class="bor">12</td>
+    </tr>
+  </table>
+</div>
+  <div class="Table-one">
+    <table class="table">
+    <caption>Table Two</caption>
+    <tr class="th-two">
+      <th class="bor" id="back" class="tb-one">#</th>
+      <th class="bor" class="tb-two">Имя</th>
+      <th class="bor" class="tb-free">Рост</th>
+      <th class="bor" class="tb-four">Вес</th>
+      <th class="bor" class="tb-five">Ср.балл</th>
+      <th class="bor" class="tb-two">Примечание</th>
+    </tr>
+    <tr class="tr-two">
+      <td class="bor" id="back" class="tb-one">1</td>
+      <td class="bor" class="tb-two">Петя Попрыгункин</td>
+      <td class="bor" class="tb-free"></td>
+      <td class="bor" class="tb-four"></td>
+      <td class="bor" class="tb-five"></td>
+      <td class="bor" class="tb-two"></td>
+    </tr>
+    <tr class="tr-two">
+    <td class="bor" id="back" class="tb-one">2</td>
+    <td class="bor" class="tb-two">Вася Тяжелый</td>
+    <td class="bor" class="tb-free"></td>
+    <td class="bor" class="tb-four"></td>
+    <td class="bor" class="tb-five"></td>
+    <td class="bor" class="tb-two"></td>
+  </tr>
+    <tr class="tr-two">
+   <td classsclass="bor" id="back" class="tb-one">3</td>
+   <td classsclass="bor" class="tb-two">Серж</td>
+   <td classsclass="bor" class="tb-free"></td>
+   <td classsclass="bor" class="tb-four"></td>
+   <td classsclass="bor" class="tb-five"></td>
+   <td classsclass="bor" class="tb-two"></td>
+  </tr>
+    <tr class="tr-two-last">
+      <td class="bor" id="back" class="tb-one">Итого 6 человек</td>
+      <td class="bor" class="tb-six"></td>
+      <td class="bor" class="tb-six"></td>
+      <td class="bor" class="tb-six"></td>
+      <td class="bor" class="tb-six"></td>
+      <td class="bor" class="tb-six-last"></td>
+    </tr>
+  </table>
+  </div>
+</div>
+</body>
+</html>
